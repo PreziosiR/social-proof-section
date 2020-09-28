@@ -1,0 +1,106 @@
+html {
+    background-image: url(../images/bg-pattern-bottom-desktop.svg);
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.container>* {
+    margin-bottom: 4%;
+    flex: 1 1 750px;
+}
+
+.headlineContainer {
+    max-width: 500px;
+}
+
+.usersReviewContainer {
+    width: 1000px;
+    height: 350px;
+    border: solid 2px black;
+}
+
+.starsContainer {
+    width: 500px;
+    /* border: solid 2px black; */
+}
+
+.starsContainer>* {
+    margin: 2%;
+}
+
+.starsReviews {
+    flex-direction: row;
+    background-color: #F7F2F7;
+    border-radius: 10px;
+    max-width: 350px;
+}
+
+#firstStarReview {
+    margin-left: 5%;
+}
+
+#secondStarReview {
+    margin-left: 8%;
+}
+
+#thirdStarReview {
+    margin-left: 11%;
+}
+
+.stars {
+    margin: 2px;
+}
+
+.columns {
+    flex-direction: column;
+}
+
+/* COLOR */
+.darkMagenta {
+    color: #8E398E;
+}
+
+.softPink {
+    color: #EE68A4;
+}
+
+.darkGreyishMagenta {
+    color: #937B92;
+}
+
+.lightGreyishMagenta {
+    color: #F7F2F7;
+}
+
+/* TEXT */
+@font-face {
+    font-family: "Spartan";
+    src: url("../font/Spartan/Spartan-VariableFont_wght.ttf");
+}
+
+p {
+    font-family: "Spartan";
+}
+
+h1 {
+    font-family: "Spartan";
+    color: #8E398E;
+    font-weight: 700;
+}
+
+/* ### Primary
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+### Neutral
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%) */
